@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #e7c1c1;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #831361;
+}
+
+#formulario{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+button{
+    background-color: #831361;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #5c0e5c;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+#comentario{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label{
+    color: #831361;
+    margin-bottom: 5px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+#satisfacao{
+    accent-color: #831361;
+}
+
+input[type="checkbox"]{
+    accent-color: #831361;
+    margin-right: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+select{
+    padding: 5px;
+    border: 1px solid #831361;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+input{
+    padding: 2px 20px 2px 0;
+    
+}
