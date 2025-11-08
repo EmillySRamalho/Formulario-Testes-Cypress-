@@ -26,7 +26,7 @@ h1{
 
 
 fieldset {
-    border: 1px solid #ccc;
+    border: 1px solid #831361;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -96,4 +96,26 @@ select{
 input{
     padding: 2px 20px 2px 0;
     
+}
+
+.tooltip {
+      visibility: hidden;
+      background-color: #6416bd;
+      color: #fff;
+      text-align: center;
+      border-radius: 8px;
+      padding: 10px 15px;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 1000;
+      opacity: 0;
+      transition: opacity 0.4s ease, visibility 0.4s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      font-family: sans-serif;
+    }
+
+.tooltip.show {
+    visibility: visible;
+    opacity: 1;
 }
